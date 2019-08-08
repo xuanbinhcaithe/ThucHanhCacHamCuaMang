@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài tập sô 3</title>
+</head>
+<body>
+<input type="textare" id="inputvalue">
+<input type="button" value="chuyển đổi" onclick="chuyendoi()">
+<script>
+        function chuyendoi() {
+            let x=document.getElementById("inputvalue").value;
+            let y=x.toString();
+            let z=y.toLowerCase();
+            document.getElementById("inputvalue").value=z;
+        }
+</script>
+
+</body>
+</html>
